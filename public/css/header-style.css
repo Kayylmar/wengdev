@@ -1,0 +1,39 @@
+nav{
+    position: fixed;
+    padding: 35px 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    filter: drop-shadow(3px 7px 5px rgba(0, 0, 0, 0.25));
+    z-index: 3;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* gap: 40px; */
+}
+
+nav ul li{
+    padding: 0 30px;
+}
+
+nav ul li a{
+    font-size: large;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
